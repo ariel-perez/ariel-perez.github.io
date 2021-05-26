@@ -1,3 +1,120 @@
-header{
-	width:1000px
+body {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(64, 64, 66);
+    font-size: 10px;
+    margin: 0;
+  }
+  
+  p{
+    display:inline-block;
+    color: #000000;
+
+  }
+  h3 {
+    display:inline-block;
+    color: rgb(190, 150, 150);
+  }
+  
+  ul{
+    text-align: left;
+    display:inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 0.5cm;
+  }
+  .contenedor {
+   /* background: rgb(223, 198, 144);*/
+   background-image: url("./fondo.jpg"); 
+   background-repeat: no-repeat;
+   background-position: revert ;        
+   background-size: auto;
+   display: flex;
+   justify-content: space-evenly;
+   /*gap: 16px;       */
+  }
+  
+  .div_contenedor{
+   /* background: white;*/
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 8px;
+    
+  }
+  .div_contenedor_texto{        
+    font-size: 18px;
+    margin: 8px;     
+   }
+
+  .div_contenedor img {
+    background-size: cover;
+  }
+
+  .div_descripcion{
+    font-size: 0.5cm;
+    color: rgb(250, 175, 157);
+    text-align: center;
+    box-shadow: 0 0 16px 20px rgba(0,0,0,0.99);
+    border-radius: 4px;
+    padding: 60px;
+    margin: 60px;
+    }
+
+    .box-texto {
+      font-size: 0.4cm;
+      background: rgba(228, 67, 27, 0.178);
+      background-position: center;
+      background-size: 100px;
+      box-shadow: 0 0 16px rgba(151,126,87,0.64);
+      border-radius: 4px;
+    }    
+    .img_logo_chico {
+      width: auto;
+      height: 150px;
+      background-image: url("letra.png");        
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+     }
+     .btn {
+      background-color: rgb(151,126,87);
+      color: white;
+      padding: 16px 48px;
+      margin: 25px;
+      border-radius: 4px;
+      display: inline-block;
+      text-decoration: none;
+      transition: .3s;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+    .btn:hover {
+      background-color: rgb(151, 134, 200);
+      color: white;
+    }
+ .contenedor_pie_pagina {
+  width: auto;
+  height:auto;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(25.5, 25.5, 25.5);  
+   font-size: 0.3cm;
+   padding: 3px  10px;
+}
+.pie_pagina {
+  background: rgb(91.8, 61.2, 61.2);
+  font-size: 0.4cm;
+  color: white;
+  text-align: left;
+  padding: 3px  10px;
+}
+.redes{
+      width: auto;
+      height: 30px;
+}
+.creacion{
+   text-align: left;       
+}
+.mail{
+text-align: right;
 }
